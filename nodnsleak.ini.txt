@@ -27,8 +27,6 @@ custom_proxy_group=🇯🇵 日本TCP`url-test`(JP-TCP).*`http://www.gstatic.com
 
 custom_proxy_group=🇯🇵 日本UDP`url-test`(JP-UDP).*`http://www.gstatic.com/generate_204`,60,120
 
-custom_proxy_group=🇯🇵 AAUDP`url-test`(JP-).*`http://www.gstatic.com/generate_204`,60,120
-
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`[]🇹🇼 台湾自动`[]🇭🇰 香港自动`[]🇯🇵 日本TCP`[]🇯🇵 日本UDP`(.*)
 
 enable_rule_generator=true
