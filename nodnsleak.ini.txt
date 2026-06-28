@@ -15,6 +15,8 @@ ruleset=DIRECT,https://raw.githubusercontent.com/macarlosvamos/Rules/refs/heads/
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
+custom_proxy_group=➕ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`,60,120
+
 custom_proxy_group=🇹🇼 台湾自动`url-test`(台湾|TW|TW-|Tai Wan|🇹🇼|🇨🇳|TaiWan).*`http://www.gstatic.com/generate_204`,60,120
 
 custom_proxy_group=🇭🇰 香港自动`url-test`(广港|广台|广日|广新|广韩|广美|香港|HK|HK-|Hong Kong|🇭🇰|HongKong).*`http://www.gstatic.com/generate_204`,60,120
@@ -27,7 +29,7 @@ custom_proxy_group=🇯🇵 日本TCP`url-test`(JP-TCP).*`http://www.gstatic.com
 
 custom_proxy_group=🇯🇵 日本UDP`url-test`(JP-UDP).*`http://www.gstatic.com/generate_204`,60,120
 
-custom_proxy_group=🚀 节点选择`select`[]DIRECT`[]🇹🇼 台湾自动`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇸🇬 新加坡自动`[]🇯🇵 日本TCP`[]🇯🇵 日本UDP`(.*)
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`[]➕ 自动选择`[]🇹🇼 台湾自动`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇸🇬 新加坡自动`[]🇯🇵 日本TCP`[]🇯🇵 日本UDP`(.*)
 
 enable_rule_generator=true
 overwrite_original_rules=true
