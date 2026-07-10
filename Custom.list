@@ -77,8 +77,10 @@ DOMAIN-KEYWORD,51ddedu
 DOMAIN-KEYWORD,tngdigital
 DOMAIN-KEYWORD,clevertap
 DOMAIN-KEYWORD,tngdigital
+DOMAIN-KEYWORD,assettocorsa
 IP-CIDR,42.200.34.66/32,no-resolve
 IP-CIDR,208.54.0.0/16,no-resolve
+IP-CIDR,85.190.0.0/16,no-resolve
 IP-CIDR,43.160.0.0/16,no-resolve
 IP-CIDR,43.175.230.0/16,no-resolve
 IP-CIDR,175.97.0.0/16,no-resolve
