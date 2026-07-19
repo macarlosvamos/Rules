@@ -17,21 +17,21 @@ ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=➕ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`,60,100
 
-custom_proxy_group=➕ HY2自动`url-test`(?i)HY2`http://www.gstatic.com/generate_204`,60,120
+custom_proxy_group=➕ HY2自动`url-test`(?i)HY2`http://www.gstatic.com/generate_204`,60,100
 
-custom_proxy_group=🇸🇬 SG HY2`url-test`(?i)^(SG|🇸🇬|Singapore).*(HY2)`http://www.gstatic.com/generate_204`,60,120
+custom_proxy_group=🇸🇬 SG HY2`url-test`(?i)^(SG|🇸🇬|Singapore).*(HY2)`http://www.gstatic.com/generate_204`,60,100
 
-custom_proxy_group=🇹🇼 台湾自动`url-test`(台湾|TW|TW-|Tai Wan|🇹🇼|🇨🇳|TaiWan).*`http://www.gstatic.com/generate_204`,60,120
+custom_proxy_group=🇹🇼 台湾自动`url-test`(台湾|TW|TW-|Tai Wan|🇹🇼|🇨🇳|TaiWan).*`http://www.gstatic.com/generate_204`,60,100
 
-custom_proxy_group=🇭🇰 香港自动`url-test`(广港|广台|广日|广新|广韩|广美|香港|HK|HK-|Hong Kong|🇭🇰|HongKong).*`http://www.gstatic.com/generate_204`,60,120
+custom_proxy_group=🇭🇰 香港自动`url-test`(广港|广台|广日|广新|广韩|广美|香港|HK|HK-|Hong Kong|🇭🇰|HongKong).*`http://www.gstatic.com/generate_204`,60,100
 
-custom_proxy_group=🇸🇬 SG自动`url-test`(新加坡|SG|Republic of Singapore|Singapore|🇸🇬).*`http://www.gstatic.com/generate_204`,60,120
+custom_proxy_group=🇸🇬 SG自动`url-test`(新加坡|SG|Republic of Singapore|Singapore|🇸🇬).*`http://www.gstatic.com/generate_204`,60,100
 
-custom_proxy_group=🇺🇲 美国自动`url-test`(美国|US|United States|America|🇺🇲).*`http://www.gstatic.com/generate_204`,60,120
+custom_proxy_group=🇺🇲 美国自动`url-test`(美国|US|United States|America|🇺🇲).*`http://www.gstatic.com/generate_204`,60,100
 
-custom_proxy_group=🇯🇵 日本TCP`url-test`(JP-TCP).*`http://www.gstatic.com/generate_204`,60,120
+custom_proxy_group=🇯🇵 日本TCP`url-test`(JP-TCP).*`http://www.gstatic.com/generate_204`,60,100
 
-custom_proxy_group=🇯🇵 日本UDP`url-test`(JP-UDP).*`http://www.gstatic.com/generate_204`,60,120
+custom_proxy_group=🇯🇵 日本UDP`url-test`(JP-UDP).*`http://www.gstatic.com/generate_204`,60,100
 
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`[]➕ 自动选择`[]➕ HY2自动`[]🇹🇼 台湾自动`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇸🇬 SG HY2`[]🇸🇬 SG自动`[]🇯🇵 日本TCP`[]🇯🇵 日本UDP`(.*)
 
